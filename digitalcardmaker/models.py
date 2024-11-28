@@ -1,3 +1,5 @@
+import uuid
+
 from django.db import models
 from . import holidayEnum
 # - this imports the Holiday Enums
@@ -18,5 +20,7 @@ class Card(models.Model):
     created_at = models.DateTimeField(auto_now_add=True)
     # ^ Here we can see when the card was created
 
+    card_hash_id = models.UUIDField(primary_key=True, default=uuid.uuid4, editable=False)
+
     def __str__(self):
-        return f"{self.recipient} - {self.sender} ({self.holidayType})"
+        return f"{self.recipient} - {self.sender} - [ID: {self.card_hash_id}] - ({self.holidayType})"

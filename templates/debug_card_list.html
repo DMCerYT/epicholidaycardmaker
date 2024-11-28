@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <h1>Here are all the currently available cards</h1>
+    <ul>
+    {% for card in list_of_current_cards %}
+        <li>
+            <a href="{% url 'card_render' card.card_hash_id %}">{{ card.recipient }} - by {{ card.sender }}</a>
+        </li>
+    {% empty %}
+        <p>No cards created at the moment...</p>
+    {% endfor %}
+    </ul>
+</body>
+</html>
