@@ -1,8 +1,8 @@
-from enum import Enum
+from django.db import models
 
-class HolidayType(Enum):
-    PLACEHOLDER = 0
-    CHRISTMAS = 1
-    NEWYEARS = 2
-    THANKSGIVING = 3
-    BIRTHDAYS = 4
+class HolidayType(models.IntegerChoices):
+    PLACEHOLDER = 0, 'temp'
+    CHRISTMAS = 1, 'christmas'
+    NEWYEARS = 2, 'new years'
+    THANKSGIVING = 3, 'thanksgiving'
+    BIRTHDAYS = 4, 'birthdays'

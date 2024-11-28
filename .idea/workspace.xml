@@ -4,23 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="02c07ec1-009f-4dcf-a7af-c7642c870b9d" name="Changes" comment="init commit">
-      <change afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/digitalcardmaker/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/digitalcardmaker/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/digitalcardmaker/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/digitalcardmaker/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/digitalcardmaker/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/digitalcardmaker/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/digitalcardmaker/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/digitalcardmaker/views.py" afterDir="false" />
+    <list default="true" id="02c07ec1-009f-4dcf-a7af-c7642c870b9d" name="Changes" comment="init commit 2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/holidaymaker/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/holidaymaker/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/digitalcardmaker/holidayEnum.py" beforeDir="false" afterPath="$PROJECT_DIR$/digitalcardmaker/holidayEnum.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/digitalcardmaker/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/digitalcardmaker/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/holidaymaker/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/holidaymaker/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -114,7 +110,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1732807223781</updated>
-      <workItem from="1732807226557" duration="1265000" />
+      <workItem from="1732807226557" duration="2359000" />
     </task>
     <task id="LOCAL-00001" summary="init commit">
       <option name="closed" value="true" />
@@ -124,7 +120,15 @@
       <option name="project" value="LOCAL" />
       <updated>1732807416058</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="init commit 2">
+      <option name="closed" value="true" />
+      <created>1732809564752</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1732809564752</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -133,6 +137,7 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="init commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="init commit" />
+    <MESSAGE value="init commit 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="init commit 2" />
   </component>
 </project>
