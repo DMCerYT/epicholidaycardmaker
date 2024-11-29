@@ -9,8 +9,8 @@ def index(request):
 
 def card_list(request):
     list_of_current_cards = Card.objects.all()
-    return render(request, "debug_card_list.html", {"list_of_current_cards": list_of_current_cards})
+    return render(request, "cards/debug_card_list.html", {"list_of_current_cards": list_of_current_cards})
 
 def card_render(request, card_hash_id):
     card = get_object_or_404(Card, card_hash_id=card_hash_id)
-    return render(request, "card_template.html", context={"card": card})
+    return render(request, "cards/card_template.html", context={"card": card})
